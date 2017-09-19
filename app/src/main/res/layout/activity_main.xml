@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection, AndroidDomInspection, AndroidDomInspection, AndroidDomInspection, AndroidDomInspection -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.udacity.myapplication.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/android_party"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Happy Birthday Amaury!"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        android:text="From Daddy!"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-light" />
+
+</RelativeLayout>
